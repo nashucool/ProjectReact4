@@ -5,11 +5,13 @@ export const HeroContainer = styled.div`
  background: #0c0c0c;
  display: flex;
  justify-content: center;
- align-items: center
+ align-items: center;
  padding: 0 30px;
  height: 800px;
  position: relative;
  z-index: 1;
+ 
+ /**Add :before styles**/
 
  :before {
     content:'';
@@ -27,7 +29,7 @@ export const HeroContainer = styled.div`
     z-index: 2;
  }
 
- /**Add :before styles**/
+ 
 `
 export const HeroBg = styled.div`
     position: absolute;

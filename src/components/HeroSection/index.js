@@ -19,9 +19,6 @@ const HeroSection = () => {
     const onHover = () =>{
         setHover(!hover)
     }
-
-    
-
   return (
     <>
     <HeroContainer id='home'>
